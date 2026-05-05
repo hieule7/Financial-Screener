@@ -1,0 +1,12 @@
+# Generated data files — too large for GitHub (~50MB each)
+# Re-generate by running vnstock_pull_bctc.ipynb
+ALL_BCTC_*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
