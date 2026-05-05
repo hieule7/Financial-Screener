@@ -144,6 +144,16 @@ avg overlay               + trend
 - **File size**: the raw Excel is ~50MB. First load takes 10-20 seconds; subsequent loads use Streamlit cache.
 
 ---
+## Config Theme:
+Create a folder named .streamlit/ in the project directory.
+Create a config.toml file inside with the following content:
+
+[theme]
+base = "dark"
+backgroundColor = "#0A0F1E"
+secondaryBackgroundColor = "#0F1629"
+textColor = "#E2E8F0"
+font = "monospace"
 
 ## File structure
 
